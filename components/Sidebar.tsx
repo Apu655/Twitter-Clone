@@ -14,6 +14,7 @@ import SidebarRow from './SidebarRow'
 type Props = {}
 
 function Sidebar({}: Props) {
+  console.log("HELWOWK OJ")
   return ( 
     <div className='col-span-2 flex flex-col items-center md:items-start px-4'>
         <img className='m-3 h-10 w-10' src="https://links.papareact.com/drq"/>
